@@ -37,7 +37,7 @@ function SiginUp() {
   
 //   }
  
-   },[errors.name,errors.password,errors.email,ress])
+   },[errors.name,errors.password,errors.email,ress,navigate])
     return (
         <div className='container' >
             <div className='startingd' style={{ height: fitH ? "480px" : "325px" }}>

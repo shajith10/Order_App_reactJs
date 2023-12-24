@@ -29,10 +29,9 @@ function Login() {
    }
 //    if(ress.status===200){
     // console.log(ress)
-    navigate('/foodfront',{state:ress.data.name})
 //   }
 
-   },[errors.email,errors.password,ress])
+   },[errors.email,errors.password,ress,navigate])
     return (
         <div className='container' >
             <div className='startingd' style={{ height: fitH ? "470px" : "300px" }}>
