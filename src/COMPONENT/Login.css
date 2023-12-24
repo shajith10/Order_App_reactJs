@@ -42,26 +42,3 @@
     top:19px;
 }
 
-@media screen and (max-width: 768px) {
-    .container {
-        height: auto;
-    }
-
-    .formstart {
-        margin-left: 0;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .container {
-        background-size: contain;
-    }
-
-    .startingd {
-        width: 100%;
-    }
-
-    .formstart input {
-        width: 100%;
-    }
-}
