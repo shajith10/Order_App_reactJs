@@ -20,7 +20,7 @@ function SiginUp() {
         axios.post('http://localhost:2001/api/v1/user/createUser',data)
         .then(res=>setress(res.status))
         .catch(err=>console.log(err))
-       
+        navigate('login')
     };
     
    
@@ -32,10 +32,10 @@ function SiginUp() {
     setfitH(false)
    }
    
-   if(ress===200){
-    console.log(ress)
-    navigate('login')
-  }
+//    if(ress===200){
+    // console.log(ress)
+  
+//   }
  
    },[errors.name,errors.password,errors.email,ress])
     return (

@@ -41,3 +41,49 @@
     right:30px;
     top:19px;
 }
+
+/* Media Query for Tablets */
+@media screen and (max-width: 768px) {
+    .container {
+        height: auto;
+    }
+
+    .startingd {
+        width: 100%;
+    }
+
+    .formstart {
+        margin-left: 0;
+    }
+
+    .formstart input {
+        width: 100%;
+    }
+
+    .innerinput-img {
+        right: 20px;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px) {
+    .container {
+        height: auto;
+    }
+
+    .startingd {
+        width: 100%;
+    }
+
+    .formstart {
+        margin-left: 0;
+    }
+
+    .formstart input {
+        width: 100%;
+    }
+
+    .innerinput-img {
+        display: none; /* Hide the innerinput-img on smaller screens if needed */
+    }
+}
