@@ -237,7 +237,7 @@ th, td {
 
 @media screen and (max-width: 1024px) {
   .side-menu {
-    left: -250px; /* Ensure the menu is initially hidden on smaller screens */
+    left: -250px; 
   }
 
   .menu-icon {
@@ -245,11 +245,11 @@ th, td {
   }
 
   .menu-icon-1 {
-    display: none;
+    
   }
 
   .image-name {
-    display: none;
+    
   }
 
   .logout-1 {
@@ -279,7 +279,7 @@ th, td {
   }
 
   .box {
-    width: 100%;
+    width: 20%;
   }
 
   .filter-icons {
@@ -316,15 +316,15 @@ th, td {
   }
 
   .box {
-    width: 100%;
+    width: 20%;
   }
 
   .filter-icons {
-    display: none;
+    
   }
 
   .home-icon {
-    display: none;
+    
   }
 
   .addcarts {
