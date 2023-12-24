@@ -17,7 +17,7 @@ function Login() {
         axios.post('http://localhost:2001/api/v1/user/login',data)
         .then(res=>setress(res))
         .catch(err=>console.log(err))
-        navigate('/foodfront',{state:ress.data.name})
+         navigate('/foodfront',{state:"shajith"})
       
     };
    useEffect(()=>{
@@ -27,9 +27,7 @@ function Login() {
    if( !errors.email && !errors.password){
     setfitH(false)
    }
-//    if(ress.status===200){
-    // console.log(ress)
-//   }
+
 
    },[errors.email,errors.password,ress,navigate])
     return (
