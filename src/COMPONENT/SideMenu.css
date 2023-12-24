@@ -249,7 +249,7 @@ th, td {
     
   }
   .search-inputs{
-    width:100px;
+    width:1300px;
   }
 
   .image-name {
@@ -312,7 +312,7 @@ th, td {
   }
 
   .hearder_image{
-    width: 150%;
+    width: 100%;
   }
 
   .category-name-below {
@@ -325,7 +325,7 @@ th, td {
     font-size: 10px;
   }
   .search-inputs{
-    width:100px;
+    width:130px;
   }
 
   .box-container {
