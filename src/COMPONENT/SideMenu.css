@@ -234,6 +234,13 @@ th, td {
   transition: background-color 0.3s ease-in-out;
   cursor: pointer;
 }
+.addtocartpro{
+  margin-left: 70px;
+  color: black;
+  cursor: pointer;
+  background-color: #FFA500;
+  padding: 5px;
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -261,8 +268,9 @@ th, td {
   }
 
   .search-icons {
-    justify-content: center;
-
+    position: absolute;
+    display: flex;
+    align-items: center;
   }
 
   .fa-below,
@@ -286,7 +294,7 @@ th, td {
   }
 
   .box {
-    width:auto;
+    width:50%;
   }
 
   .filter-icons {
@@ -325,7 +333,8 @@ th, td {
     font-size: 10px;
   }
   .search-inputs{
-    width:130px;
+    width:150px;
+
   }
 
   .box-container {
@@ -350,7 +359,8 @@ th, td {
   .addcarts {
     right: 2%;
   }
-  .addcartsp{
+  .addtocartpro{
     font-size: 8px;
+    margin-left: 30px;
   }
 }
