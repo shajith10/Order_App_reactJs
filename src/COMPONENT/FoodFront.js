@@ -298,7 +298,7 @@ function FoodFront() {
                                 <div className="box-content">
                                     <h3 className="box-title">{item.strMeal}</h3>
                                 </div>
-                                <p style={{ marginLeft: '10px', color: 'black' }}>₹ {item.idMeal - randomSubtraction}<span style={{ marginLeft: '70px', color: 'black', cursor: 'pointer', backgroundColor: '#FFA500', padding: '5px' }} onClick={() => addCart(item.idMeal - randomSubtraction, item.strMealThumb, item.strMeal)}>Add to cart</span></p>
+                                <p style={{ marginLeft: '10px', color: 'black' }}>₹ {item.idMeal - randomSubtraction}<span className='addtocartp'  onClick={() => addCart(item.idMeal - randomSubtraction, item.strMealThumb, item.strMeal)}>Add to cart</span></p>
                             </div>
                         ))}
                     </div>

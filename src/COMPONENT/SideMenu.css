@@ -234,6 +234,13 @@ th, td {
   transition: background-color 0.3s ease-in-out;
   cursor: pointer;
 }
+.addcartsp{
+  margin-left: 70px;
+   color: black;
+    cursor: pointer;
+     background-color: #FFA500;
+      padding: 5px ;
+}
 
 @media screen and (max-width: 1024px) {
   .side-menu {
@@ -306,6 +313,9 @@ th, td {
   .category-heading {
     margin-left: 20px;
   }
+  .hearder_image{
+    width: fit-content;
+  }
 
   .category-name-below {
     width: 12%;
@@ -322,7 +332,7 @@ th, td {
   }
 
   .box {
-    width: 35%;
+    width: auto;
   }
 
   .filter-icons {
@@ -332,8 +342,14 @@ th, td {
   .home-icon {
     
   }
+  .search-icons{
+    justify-content: center;
+  }
 
   .addcarts {
     right: 0;
+  }
+  .addcartsp{
+    font-size: 8px;
   }
 }
