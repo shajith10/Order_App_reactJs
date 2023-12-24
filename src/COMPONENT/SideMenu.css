@@ -245,8 +245,11 @@ th, td {
     display: block;
   }
 
-  .menu-icon-1 {
+  .search-fa {
     
+  }
+  .search-inputs{
+    width:100px;
   }
 
   .image-name {
@@ -309,7 +312,7 @@ th, td {
   }
 
   .hearder_image{
-    width: 100%;
+    width: 150%;
   }
 
   .category-name-below {
@@ -321,13 +324,16 @@ th, td {
     top: 60%;
     font-size: 10px;
   }
+  .search-inputs{
+    width:100px;
+  }
 
   .box-container {
     justify-content: center;
   }
 
   .box {
-    width: 33%;
+    width: 50%;
   }
 
   .filter-icons {
