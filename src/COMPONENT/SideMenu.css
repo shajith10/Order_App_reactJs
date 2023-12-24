@@ -338,7 +338,7 @@ th, td {
   .search-icons {
     position: absolute;
     display: flex;
-    align-items: center;
+    left:30%;
   }
 
   .box-container {
@@ -346,7 +346,7 @@ th, td {
   }
 
   .box {
-    width: 30%;
+    width: 40%;
   }
 
   .filter-icons {
