@@ -118,11 +118,29 @@ function FoodFront() {
         }))
     }
 
-    const addCart = (price, image, name) => {
-        const newCartProduct = [...datas.addcartproduct, { price, image, name, count: 1 }];
-        setdatas((prev) => ({
-            ...prev, addcartproduct: newCartProduct
-        }))
+    const addCart = (price, image, name) => {   
+        const existingProductIndex = datas.addcartproduct.findIndex(
+            (product) => product.name === name
+        );
+    
+        if (existingProductIndex !== -1) {
+            // Product already exists in the cart, update the count
+            const updatedCartProduct = [...datas.addcartproduct];
+            updatedCartProduct[existingProductIndex].count += 1;
+    
+            setdatas((prev) => ({
+                ...prev,
+                addcartproduct: updatedCartProduct,
+            }));
+        } else {
+            // Product does not exist in the cart, add a new entry
+            const newCartProduct = [...datas.addcartproduct, { price, image, name, count: 1 }];
+    
+            setdatas((prev) => ({
+                ...prev,
+                addcartproduct: newCartProduct,
+            }));
+        }
     }
 
     const showaddcart = () => {
