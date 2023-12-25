@@ -346,7 +346,7 @@ th, td {
     padding: 5px;
  }
  .image-name{
-  
+  display: none;
  }
  
 }
