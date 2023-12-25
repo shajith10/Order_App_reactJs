@@ -207,7 +207,7 @@ function FoodFront() {
                         round={true}
                         size="35"
                         className='round-image'
-                    />    {name.state}
+                    />    {name.state.charAt(0)}
                 </div>
 
                 <p className='addcarts' onClick={showaddcart}>Add to Cart</p>
