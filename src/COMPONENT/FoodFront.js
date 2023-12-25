@@ -91,7 +91,7 @@ function FoodFront() {
     const searchs = () => {
         if (datas.firstLetter) {
             setdatas((prev) => ({
-                ...prev, searched: true
+                ...prev, searched: true,addclick:false
             }))
         }
 
@@ -127,8 +127,9 @@ function FoodFront() {
 
     const showaddcart = () => {
         setdatas((prev) => ({
-            ...prev, addclick: true, homeclick: false, categoryClicked: false,searched:false,selectedCuisine:null
+            ...prev, addclick: true, homeclick: false, categoryClicked: false,searched:false
         }))
+        setSelectedCuisine(null)
     }
 
     const decre = (index) => {
