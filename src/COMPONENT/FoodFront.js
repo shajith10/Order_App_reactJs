@@ -127,7 +127,7 @@ function FoodFront() {
 
     const showaddcart = () => {
         setdatas((prev) => ({
-            ...prev, addclick: true, homeclick: false, categoryClicked: false
+            ...prev, addclick: true, homeclick: false, categoryClicked: false,searched:false,selectedCuisine:null
         }))
     }
 
