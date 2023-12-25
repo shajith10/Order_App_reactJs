@@ -29,7 +29,7 @@ function FoodFront() {
     }
 
     const [datas, setdatas] = useState(initialValue)
-    const randomSubtraction = 50000;
+    const randomSubtraction = 52500;
 
 
     const cuisines = [
