@@ -29,7 +29,7 @@ function FoodFront() {
     }
 
     const [datas, setdatas] = useState(initialValue)
-    const randomSubtraction = Math.floor(Math.random() * 100) + 52500;
+    const randomSubtraction = 5000;
 
 
     const cuisines = [
@@ -161,7 +161,7 @@ function FoodFront() {
             .catch(err => console.log(err))
 
         axios.get(`https://www.themealdb.com/api/json/v1/1/search.php?s=${datas.firstLetter}`)
-            .then(res => { const responsedata = Array.isArray(res?.data?.meals) ? res?.data?.meals : []; setdatas((prev) => ({ ...prev, categorysearchdata: responsedata })) })
+            .then(res => {console.log(res); const responsedata = Array.isArray(res?.data?.meals) ? res?.data?.meals : []; setdatas((prev) => ({ ...prev, categorysearchdata: responsedata })) })
             .catch(err => console.log(err))
 
         axios.get(`https://www.themealdb.com/api/json/v1/1/filter.php?a=${selectedCuisine}`)
